@@ -1,8 +1,3 @@
-import 'package:ejara_demo/payment_method/view/add_payment_method.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
-
 void main() {
   // testWidgets('AddPaymentMethod test', (WidgetTester tester) async {
   //   // Create an instance of the `AddPaymentMethod` class

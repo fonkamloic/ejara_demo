@@ -182,7 +182,7 @@ class PaymentMethodScreen extends StatelessWidget {
                         child: ListTile(
                           onTap: () {
                             // create a bottom navigation sheet
-                            showModalBottomSheet(
+                            showModalBottomSheet<bool>(
                               constraints: cts,
                               context: context,
                               shape: RoundedRectangleBorder(
@@ -289,7 +289,7 @@ class PaymentMethodScreen extends StatelessWidget {
                                         onPressed: () {
                                           Navigator.push(
                                             context,
-                                            MaterialPageRoute(
+                                            MaterialPageRoute<bool>(
                                               builder: (context) =>
                                                   const AddPaymentMethod(),
                                             ),

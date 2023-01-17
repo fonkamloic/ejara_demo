@@ -12,7 +12,6 @@ class AddPaymentMethod extends StatelessWidget {
     final appBarHeight = MediaQuery.of(context).padding.top;
     final l10n = context.l10n;
     final textTheme = Theme.of(context).textTheme;
-    final scrollController = ScrollController(initialScrollOffset: 55);
     const isON = true;
     return WillPopScope(
       onWillPop: () async {

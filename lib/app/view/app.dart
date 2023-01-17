@@ -81,7 +81,6 @@ class App extends StatelessWidget {
         ),
       ),
 
-
       // set default textformfield theme
       inputDecorationTheme: InputDecorationTheme(
         border: OutlineInputBorder(
