@@ -1,3 +1,15 @@
 {
-    "@@locale": "en"
+    "@@locale": "en",
+     "paymentMethodTitle": "Choose a payment method",
+     "@paymentMethodTitle":{
+        "description": "Payment method screen title in bold"
+     },
+     "addPaymentMethodTitle": "New mobile money",
+     "@addPaymentMethodTitle": {
+         "description": "Add Payment method screen title in bold"
+     },
+     "continueButton": "Continue",
+     "@continueButton": {
+        "description": "Continue button label on the choose a payment screen"
+     }
 }
